@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const UserProfile = (props) => {
   return (
@@ -11,4 +11,3 @@ const UserProfile = (props) => {
 };
 
 export default UserProfile;
-
