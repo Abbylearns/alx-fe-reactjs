@@ -1,4 +1,4 @@
-// src/components/UserProfile.jsx
+import React from 'react';
 
 const UserProfile = (props) => {
   return (
@@ -11,3 +11,4 @@ const UserProfile = (props) => {
 };
 
 export default UserProfile;
+
