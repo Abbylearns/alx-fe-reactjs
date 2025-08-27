@@ -1,12 +1,12 @@
-import React from "react";
-
-const WelcomeMessage = () => {
+// src/components/WelcomeMessage.jsx
+function WelcomeMessage() {
   return (
     <div>
-      <h1>Welcome to React!</h1>
-      <p>This is my first React component.</p>
+      <h1>Hello everyone, I am learning React at ALX!</h1>
+      <p>This is a simple JSX component.</p>
+      <p>I am learning about JSX!</p>
     </div>
   );
-};
+}
 
 export default WelcomeMessage;
