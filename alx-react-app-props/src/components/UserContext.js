@@ -1,7 +1,4 @@
-cat > UserContext.js <<EOL
 import { createContext } from "react";
 
-const UserContext = createContext();
-
+const UserContext = createContext(); // default value can be empty
 export default UserContext;
-EOL
