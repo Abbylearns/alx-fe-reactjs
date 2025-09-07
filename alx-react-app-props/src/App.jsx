@@ -1,3 +1,4 @@
+cat > App.jsx <<EOL
 import ProfilePage from "./components/ProfilePage";
 import UserContext from "./UserContext";
 

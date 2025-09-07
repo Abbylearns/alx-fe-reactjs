@@ -1,3 +1,4 @@
+cat > components/UserInfo.jsx <<EOL
 import UserDetails from "./UserDetails";
 
 function UserInfo() {
@@ -5,3 +6,4 @@ function UserInfo() {
 }
 
 export default UserInfo;
+EOL

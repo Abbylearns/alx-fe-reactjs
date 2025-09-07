@@ -1,3 +1,4 @@
+cat > components/UserDetails.jsx <<EOL
 import { useContext } from "react";
 import UserContext from "../UserContext";
 
@@ -13,3 +14,4 @@ function UserDetails() {
 }
 
 export default UserDetails;
+EOL

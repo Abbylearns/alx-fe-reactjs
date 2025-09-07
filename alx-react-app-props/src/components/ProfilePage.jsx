@@ -1,3 +1,4 @@
+cat > components/ProfilePage.jsx <<EOL
 import UserInfo from "./UserInfo";
 
 function ProfilePage() {
@@ -5,3 +6,4 @@ function ProfilePage() {
 }
 
 export default ProfilePage;
+EOL
