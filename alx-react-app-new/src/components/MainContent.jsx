@@ -1,12 +1,17 @@
 import React from "react";
 
-export default function MainContent() {
+function MainContent() {
   return (
-    <main style={{ padding: "24px", backgroundColor: "#f4f4f4", minHeight: "200px" }}>
-      <h2 style={{ textAlign: "center", marginTop: 0 }}>Welcome to My React App</h2>
-      <p style={{ lineHeight: 1.6 }}>
-        This is the main content section where I share my favorite cities and a little about myself.
+    <main style={{ padding: "20px", backgroundColor: "#f0f0f0" }}>
+      <h2 style={{ textAlign: "center", color: "darkgreen" }}>
+        Welcome to My Favorite Cities
+      </h2>
+      <p style={{ fontSize: "18px" }}>
+        Explore a collection of cities I love for their culture, food, and
+        unique vibes.
       </p>
     </main>
   );
 }
+
+export default MainContent;
