@@ -7,8 +7,7 @@ function MainContent() {
         Welcome to My Favorite Cities
       </h2>
       <p style={{ fontSize: "18px" }}>
-        Explore a collection of cities I love for their culture, food, and
-        unique vibes.
+        I love to visit New York, Paris, and Tokyo.
       </p>
     </main>
   );
