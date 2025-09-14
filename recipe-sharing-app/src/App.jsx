@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AddRecipeForm from './components/AddRecipeForm';
 import RecipeList from './components/RecipeList';
 import RecipeDetails from './components/RecipeDetails';
+import { useParams } from 'react-router-dom';
 
 function App() {
   return (
@@ -23,8 +24,6 @@ function App() {
   );
 }
 
-// Wrapper to extract recipeId from URL
-import { useParams } from 'react-router-dom';
 function RecipeDetailsWrapper() {
   const { id } = useParams();
   return <RecipeDetails recipeId={Number(id)} />;
