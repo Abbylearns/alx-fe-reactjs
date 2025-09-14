@@ -9,15 +9,7 @@ function App() {
     <Router>
       <h1>Recipe Sharing App</h1>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <AddRecipeForm />
-              <RecipeList />
-            </>
-          }
-        />
+        <Route path="/" element={<><AddRecipeForm /><RecipeList /></>} />
         <Route path="/recipe/:id" element={<RecipeDetailsWrapper />} />
       </Routes>
     </Router>
