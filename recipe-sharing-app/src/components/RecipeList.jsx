@@ -4,9 +4,9 @@ const RecipeList = () => {
   const recipes = useRecipeStore((state) => state.recipes);
 
   return (
-    <div style={{ marginTop: '20px' }}>
+    <div>
       {recipes.map((recipe) => (
-        <div key={recipe.id} style={{ borderBottom: '1px solid #ccc', padding: '10px 0' }}>
+        <div key={recipe.id}>
           <h3>{recipe.title}</h3>
           <p>{recipe.description}</p>
         </div>
