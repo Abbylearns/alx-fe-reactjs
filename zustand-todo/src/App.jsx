@@ -1,12 +1,12 @@
-import TodoInput from "./components/TodoInput";
-import TodoList from "./components/TodoList";
+import AddRecipeForm from './components/AddRecipeForm';
+import RecipeList from './components/RecipeList';
 
 function App() {
   return (
-    <div style={{ maxWidth: "400px", margin: "50px auto", fontFamily: "Arial" }}>
-      <h1>Zustand Todo App</h1>
-      <TodoInput />
-      <TodoList />
+    <div style={{ padding: '20px' }}>
+      <h1>My Recipe App</h1>
+      <AddRecipeForm />
+      <RecipeList />
     </div>
   );
 }
