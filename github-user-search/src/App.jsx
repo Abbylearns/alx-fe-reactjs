@@ -12,3 +12,16 @@ function App() {
 }
 
 export default App;
+import React from "react";
+import SearchBar from "./components/SearchBar";
+
+const App = () => {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <SearchBar />
+    </div>
+  );
+};
+
+export default App;
+
