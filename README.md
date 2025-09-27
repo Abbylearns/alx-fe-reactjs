@@ -1,10 +1,11 @@
 # Tailwind React Integration
 
-This project demonstrates integration of Tailwind CSS with a React application using Vite.
+This project demonstrates integrating **Tailwind CSS** into a **React application** using **Vite**. It is a starting point for building responsive and interactive designs using utility-first CSS.
 
-## Setup
+## Installation
 
-1. Install dependencies:
+1. Clone the repository:
 
 ```bash
-npm install
+git clone https://github.com/Abbylearns/alx-fe-reactjs.git
+cd tailwind-react-integration
